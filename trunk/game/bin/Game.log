@@ -1,0 +1,19 @@
+[2010-06-10 16:34:46] <LOG> 
+- 'KEY_ESCAPE' will exit from this tutorial
+- 'KEY_SPACE' will cycle through all the available languages
+* The legend under the logo is always displayed in the current language
+[2010-06-10 16:34:46] <LOG> 10_StandAlone Init() called!
+[2010-06-10 16:34:49] <LOG> 10_StandAlone Exit() called!
+[2010-06-10 16:35:03] <LOG> 
+- 'KEY_ESCAPE' will exit from this tutorial
+- 'KEY_SPACE' will cycle through all the available languages
+* The legend under the logo is always displayed in the current language
+[2010-06-10 16:35:03] <LOG> 10_StandAlone Init() called!
+[2010-06-10 16:35:14] <LOG> 10_StandAlone Exit() called!
+[2010-06-10 16:35:40] <LOG> 
+- 'KEY_ESCAPE' will exit from this tutorial
+- 'KEY_SPACE' will cycle through all the available languages
+* The legend under the logo is always displayed in the current language
+[2010-06-10 16:35:40] <LOG> 10_StandAlone Init() called!
+[2010-06-10 16:35:42] <LOG> Switching to 'French'.
+[2010-06-10 16:35:42] <LOG> 10_StandAlone Exit() called!

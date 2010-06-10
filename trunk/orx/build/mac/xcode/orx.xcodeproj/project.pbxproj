@@ -1,0 +1,2734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E059AC040F22FEE800900DF0 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E059AC070F22FF0600900DF0 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E059AC090F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC0B0F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC0D0F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC0F0F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC130F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC150F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC170F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC190F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC1B0F22FF1D00900DF0 /* PBXTargetDependency */,
+				E059AC490F23014200900DF0 /* PBXTargetDependency */,
+				E0BE238B0F23F9C7004CD397 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E059AAA90F22EA9900900DF0 /* orxAnim.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E620EFF9B4A00937558 /* orxAnim.c */; };
+		E059AAAA0F22EA9900900DF0 /* orxAnimPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E630EFF9B4A00937558 /* orxAnimPointer.c */; };
+		E059AAAB0F22EA9900900DF0 /* orxAnimSet.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E640EFF9B4A00937558 /* orxAnimSet.c */; };
+		E059AAAC0F22EA9900900DF0 /* orxBank.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E840EFF9B4A00937558 /* orxBank.c */; };
+		E059AAAD0F22EA9900900DF0 /* orxBody.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E8C0EFF9B4A00937558 /* orxBody.c */; };
+		E059AAAE0F22EA9900900DF0 /* orxCamera.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E910EFF9B4A00937558 /* orxCamera.c */; };
+		E059AAAF0F22EA9900900DF0 /* orxClock.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E690EFF9B4A00937558 /* orxClock.c */; };
+		E059AAB00F22EA9900900DF0 /* orxConfig.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E6A0EFF9B4A00937558 /* orxConfig.c */; };
+		E059AAB10F22EA9900900DF0 /* orxDebug.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E6E0EFF9B4A00937558 /* orxDebug.c */; };
+		E059AAB20F22EA9900900DF0 /* orxDisplay.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E710EFF9B4A00937558 /* orxDisplay.c */; };
+		E059AAB30F22EA9900900DF0 /* orxEvent.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E6B0EFF9B4A00937558 /* orxEvent.c */; };
+		E059AAB40F22EA9900900DF0 /* orxFile.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E760EFF9B4A00937558 /* orxFile.c */; };
+		E059AAB50F22EA9900900DF0 /* orxFileSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E770EFF9B4A00937558 /* orxFileSystem.c */; };
+		E059AAB60F22EA9900900DF0 /* orxFPS.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E6F0EFF9B4A00937558 /* orxFPS.c */; };
+		E059AAB70F22EA9900900DF0 /* orxFrame.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E870EFF9B4A00937558 /* orxFrame.c */; };
+		E059AAB90F22EA9900900DF0 /* orxFX.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E920EFF9B4A00937558 /* orxFX.c */; };
+		E059AABA0F22EA9900900DF0 /* orxFXPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E930EFF9B4A00937558 /* orxFXPointer.c */; };
+		E059AABB0F22EA9900900DF0 /* orxGraphic.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E720EFF9B4A00937558 /* orxGraphic.c */; };
+		E059AABC0F22EA9900900DF0 /* orxHashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E9E0EFF9B4A00937558 /* orxHashTable.c */; };
+		E059AABD0F22EA9900900DF0 /* orxInput.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E780EFF9B4A00937558 /* orxInput.c */; };
+		E059AABE0F22EA9900900DF0 /* orxJoystick.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E790EFF9B4A00937558 /* orxJoystick.c */; };
+		E059AABF0F22EA9900900DF0 /* orxKeyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E7A0EFF9B4A00937558 /* orxKeyboard.c */; };
+		E059AAC00F22EA9900900DF0 /* orxLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E9F0EFF9B4A00937558 /* orxLinkList.c */; };
+		E059AAC10F22EA9900900DF0 /* orxMath.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E810EFF9B4A00937558 /* orxMath.c */; };
+		E059AAC20F22EA9900900DF0 /* orxMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E850EFF9B4A00937558 /* orxMemory.c */; };
+		E059AAC30F22EA9900900DF0 /* orxModule.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E660EFF9B4A00937558 /* orxModule.c */; };
+		E059AAC40F22EA9900900DF0 /* orxMouse.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E7B0EFF9B4A00937558 /* orxMouse.c */; };
+		E059AAC50F22EA9900900DF0 /* orxObject.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E880EFF9B4A00937558 /* orxObject.c */; };
+		E059AAC70F22EA9900900DF0 /* orxParam.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E7F0EFF9B4A00937558 /* orxParam.c */; };
+		E059AAC80F22EA9900900DF0 /* orxPhysics.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E8D0EFF9B4A00937558 /* orxPhysics.c */; };
+		E059AAC90F22EA9900900DF0 /* orxPlugin.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E8F0EFF9B4A00937558 /* orxPlugin.c */; };
+		E059AACA0F22EA9900900DF0 /* orxRender.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E940EFF9B4A00937558 /* orxRender.c */; };
+		E059AACB0F22EA9900900DF0 /* orxScreenshot.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421EA00EFF9B4A00937558 /* orxScreenshot.c */; };
+		E059AACD0F22EA9900900DF0 /* orxSound.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E990EFF9B4A00937558 /* orxSound.c */; };
+		E059AACE0F22EA9900900DF0 /* orxSoundPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E9A0EFF9B4A00937558 /* orxSoundPointer.c */; };
+		E059AACF0F22EA9900900DF0 /* orxSoundSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E9B0EFF9B4A00937558 /* orxSoundSystem.c */; };
+		E059AAD00F22EA9900900DF0 /* orxSpawner.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E890EFF9B4A00937558 /* orxSpawner.c */; };
+		E059AAD10F22EA9900900DF0 /* orxString.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421EA10EFF9B4A00937558 /* orxString.c */; };
+		E059AAD20F22EA9900900DF0 /* orxStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E8A0EFF9B4A00937558 /* orxStructure.c */; };
+		E059AAD30F22EA9900900DF0 /* orxSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E6C0EFF9B4A00937558 /* orxSystem.c */; };
+		E059AAD40F22EA9900900DF0 /* orxText.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E730EFF9B4A00937558 /* orxText.c */; };
+		E059AAD50F22EA9900900DF0 /* orxTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E740EFF9B4A00937558 /* orxTexture.c */; };
+		E059AAD60F22EA9900900DF0 /* orxTree.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421EA20EFF9B4A00937558 /* orxTree.c */; };
+		E059AAD70F22EA9900900DF0 /* orxType.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E670EFF9B4A00937558 /* orxType.c */; };
+		E059AAD80F22EA9900900DF0 /* orxVector.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E820EFF9B4A00937558 /* orxVector.c */; };
+		E059AAD90F22EA9900900DF0 /* orxViewport.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E950EFF9B4A00937558 /* orxViewport.c */; };
+		E059AADE0F22EC5300900DF0 /* liborx.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059AAEA0F22ED0700900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059AAEB0F22ED1900900DF0 /* orxMain.c in Sources */ = {isa = PBXBuildFile; fileRef = E0421E7E0EFF9B4A00937558 /* orxMain.c */; };
+		E059AB2A0F22F37D00900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059AB2B0F22F38500900DF0 /* orxRender.c in Sources */ = {isa = PBXBuildFile; fileRef = E0582BF10F022280005F4F4B /* orxRender.c */; };
+		E059AB410F22F49800900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059AB420F22F4A800900DF0 /* orxPhysics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BEE0F022280005F4F4B /* orxPhysics.cpp */; };
+		E059ABA20F22FD5D00900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059ABB00F22FD6200900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059ABBE0F22FD6600900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059ABCC0F22FD6A00900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059ABDA0F22FD6D00900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059ABED0F22FD9B00900DF0 /* orxDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BDA0F022280005F4F4B /* orxDisplay.cpp */; };
+		E059AC210F22FFD000900DF0 /* orxJoystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BE10F022280005F4F4B /* orxJoystick.cpp */; };
+		E059AC250F22FFF500900DF0 /* orxKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BE60F022280005F4F4B /* orxKeyboard.cpp */; };
+		E059AC280F23000F00900DF0 /* orxMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BEB0F022280005F4F4B /* orxMouse.cpp */; };
+		E059AC2B0F23003000900DF0 /* orxSoundSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0582BF70F022280005F4F4B /* orxSoundSystem.cpp */; };
+		E059AC420F2300F600900DF0 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E059AC470F23011000900DF0 /* orxBounce.c in Sources */ = {isa = PBXBuildFile; fileRef = E0582BD40F022280005F4F4B /* orxBounce.c */; };
+		E070C4FF10105D87009CDBDD /* orxLocale.c in Sources */ = {isa = PBXBuildFile; fileRef = E070C4F910105D2F009CDBDD /* orxLocale.c */; };
+		E0BE23840F23F982004CD397 /* liborx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E059AAA00F22E20700900DF0 /* liborx.dylib */; };
+		E0BE23890F23F9A0004CD397 /* orxScroll.c in Sources */ = {isa = PBXBuildFile; fileRef = E0582BD50F022280005F4F4B /* orxScroll.c */; };
+		E0CC631E0F96E1C600BCCD0D /* orxShader.c in Sources */ = {isa = PBXBuildFile; fileRef = E0CC631C0F96E1B700BCCD0D /* orxShader.c */; };
+		E0CC631F0F96E1C600BCCD0D /* orxShaderPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = E0CC631D0F96E1B700BCCD0D /* orxShaderPointer.c */; };
+		E0F5E2AE0FE333B000FEB145 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E031D7EC0F22AF3E0093B68F /* OpenGL.framework */; };
+		E0F5E2E30FE3372700FEB145 /* libsfml-graphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E00FE3371800FEB145 /* libsfml-graphics.a */; };
+		E0F5E2E40FE3372700FEB145 /* libsfml-system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E10FE3371800FEB145 /* libsfml-system.a */; };
+		E0F5E2E50FE3372700FEB145 /* libsfml-window.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E20FE3371800FEB145 /* libsfml-window.a */; };
+		E0F5E2E60FE3373C00FEB145 /* libsfml-system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E10FE3371800FEB145 /* libsfml-system.a */; };
+		E0F5E2E70FE3373C00FEB145 /* libsfml-window.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E20FE3371800FEB145 /* libsfml-window.a */; };
+		E0F5E2E80FE3374D00FEB145 /* libsfml-system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E10FE3371800FEB145 /* libsfml-system.a */; };
+		E0F5E2E90FE3374D00FEB145 /* libsfml-window.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E20FE3371800FEB145 /* libsfml-window.a */; };
+		E0F5E2EB0FE3376600FEB145 /* libsfml-audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2DF0FE3371800FEB145 /* libsfml-audio.a */; };
+		E0F5E2EC0FE3376600FEB145 /* libsfml-system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E10FE3371800FEB145 /* libsfml-system.a */; };
+		E0F5E2ED0FE3377400FEB145 /* libsfml-system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E10FE3371800FEB145 /* libsfml-system.a */; };
+		E0F5E2EE0FE3377400FEB145 /* libsfml-window.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E2E20FE3371800FEB145 /* libsfml-window.a */; };
+		E0F5E3340FE33BF300FEB145 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E3330FE33BD400FEB145 /* libBox2D.a */; };
+		E0F5E3BC0FE3522700FEB145 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F5E3B50FE3521A00FEB145 /* OpenAL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E059AAE70F22ECE200900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AB260F22F36900900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AB280F22F36900900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059AB3D0F22F48500900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AB3F0F22F48500900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059AB9C0F22FD5D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AB9E0F22FD5D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059ABAA0F22FD6200900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059ABAC0F22FD6200900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059ABB80F22FD6600900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059ABBA0F22FD6600900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059ABC60F22FD6A00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059ABC80F22FD6A00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059ABD40F22FD6D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059ABD60F22FD6D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059AC080F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AC0A0F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059AC0C0F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AB220F22F35D00900DF0;
+			remoteInfo = orxRender_Home;
+		};
+		E059AC0E0F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AB390F22F47800900DF0;
+			remoteInfo = orxPhysics_Box2D;
+		};
+		E059AC120F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AB9A0F22FD5D00900DF0;
+			remoteInfo = orxDisplay_SFML;
+		};
+		E059AC140F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059ABA80F22FD6200900DF0;
+			remoteInfo = orxKeyboard_SFML;
+		};
+		E059AC160F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059ABB60F22FD6600900DF0;
+			remoteInfo = orxMouse_SFML;
+		};
+		E059AC180F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059ABC40F22FD6A00900DF0;
+			remoteInfo = orxJoystick_SFML;
+		};
+		E059AC1A0F22FF1D00900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059ABD20F22FD6D00900DF0;
+			remoteInfo = orxSoundSystem_SFML;
+		};
+		E059AC3C0F2300F600900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E059AC3E0F2300F600900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E059AC480F23014200900DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AC3A0F2300F600900DF0;
+			remoteInfo = Bounce;
+		};
+		E0BE237E0F23F982004CD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AA9F0F22E20700900DF0;
+			remoteInfo = orxLIB;
+		};
+		E0BE23800F23F982004CD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E059AAE20F22ECCA00900DF0;
+			remoteInfo = orx;
+		};
+		E0BE238A0F23F9C7004CD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BE237C0F23F982004CD397;
+			remoteInfo = Scroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E059AADB0F22EAF700900DF0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../bin;
+			dstSubfolderSpec = 16;
+			files = (
+				E059AADE0F22EC5300900DF0 /* liborx.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E031D7EC0F22AF3E0093B68F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E0421E070EFF9B3800937558 /* orxAnim.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxAnim.h; sourceTree = "<group>"; };
+		E0421E080EFF9B3800937558 /* orxAnimPointer.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxAnimPointer.h; sourceTree = "<group>"; };
+		E0421E090EFF9B3800937558 /* orxAnimSet.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxAnimSet.h; sourceTree = "<group>"; };
+		E0421E0B0EFF9B3800937558 /* orxDecl.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxDecl.h; sourceTree = "<group>"; };
+		E0421E0C0EFF9B3800937558 /* orxModule.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxModule.h; sourceTree = "<group>"; };
+		E0421E0D0EFF9B3800937558 /* orxType.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxType.h; sourceTree = "<group>"; };
+		E0421E0F0EFF9B3800937558 /* orxClock.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxClock.h; sourceTree = "<group>"; };
+		E0421E100EFF9B3800937558 /* orxConfig.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxConfig.h; sourceTree = "<group>"; };
+		E0421E110EFF9B3800937558 /* orxEvent.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxEvent.h; sourceTree = "<group>"; };
+		E0421E120EFF9B3800937558 /* orxSystem.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxSystem.h; sourceTree = "<group>"; };
+		E0421E140EFF9B3800937558 /* orxDebug.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxDebug.h; sourceTree = "<group>"; };
+		E0421E150EFF9B3800937558 /* orxFPS.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFPS.h; sourceTree = "<group>"; };
+		E0421E170EFF9B3800937558 /* orxDisplay.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxDisplay.h; sourceTree = "<group>"; };
+		E0421E180EFF9B3800937558 /* orxGraphic.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxGraphic.h; sourceTree = "<group>"; };
+		E0421E190EFF9B3800937558 /* orxText.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxText.h; sourceTree = "<group>"; };
+		E0421E1A0EFF9B3800937558 /* orxTexture.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxTexture.h; sourceTree = "<group>"; };
+		E0421E1C0EFF9B3800937558 /* orxFile.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFile.h; sourceTree = "<group>"; };
+		E0421E1D0EFF9B3800937558 /* orxFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFileSystem.h; sourceTree = "<group>"; };
+		E0421E1E0EFF9B3800937558 /* orxInput.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxInput.h; sourceTree = "<group>"; };
+		E0421E1F0EFF9B3800937558 /* orxJoystick.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxJoystick.h; sourceTree = "<group>"; };
+		E0421E200EFF9B3800937558 /* orxKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxKeyboard.h; sourceTree = "<group>"; };
+		E0421E210EFF9B3800937558 /* orxMouse.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxMouse.h; sourceTree = "<group>"; };
+		E0421E240EFF9B3800937558 /* orxParam.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxParam.h; sourceTree = "<group>"; };
+		E0421E260EFF9B3800937558 /* orxAABox.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxAABox.h; sourceTree = "<group>"; };
+		E0421E270EFF9B3800937558 /* orxMath.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxMath.h; sourceTree = "<group>"; };
+		E0421E280EFF9B3800937558 /* orxOBox.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxOBox.h; sourceTree = "<group>"; };
+		E0421E290EFF9B3800937558 /* orxVector.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxVector.h; sourceTree = "<group>"; };
+		E0421E2B0EFF9B3800937558 /* orxBank.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxBank.h; sourceTree = "<group>"; };
+		E0421E2C0EFF9B3800937558 /* orxMemory.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxMemory.h; sourceTree = "<group>"; };
+		E0421E2E0EFF9B3800937558 /* orxFrame.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFrame.h; sourceTree = "<group>"; };
+		E0421E2F0EFF9B3800937558 /* orxObject.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxObject.h; sourceTree = "<group>"; };
+		E0421E300EFF9B3800937558 /* orxSpawner.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxSpawner.h; sourceTree = "<group>"; };
+		E0421E310EFF9B3800937558 /* orxStructure.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxStructure.h; sourceTree = "<group>"; };
+		E0421E320EFF9B3800937558 /* orx.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orx.h; sourceTree = "<group>"; };
+		E0421E330EFF9B3800937558 /* orxInclude.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxInclude.h; sourceTree = "<group>"; };
+		E0421E340EFF9B3800937558 /* orxKernel.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxKernel.h; sourceTree = "<group>"; };
+		E0421E350EFF9B3800937558 /* orxUtils.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxUtils.h; sourceTree = "<group>"; };
+		E0421E370EFF9B3800937558 /* orxBody.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxBody.h; sourceTree = "<group>"; };
+		E0421E380EFF9B3800937558 /* orxPhysics.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPhysics.h; sourceTree = "<group>"; };
+		E0421E3B0EFF9B3800937558 /* orxPlugin_CoreDefine.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_CoreDefine.h; sourceTree = "<group>"; };
+		E0421E3C0EFF9B3800937558 /* orxPlugin_CoreID.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_CoreID.h; sourceTree = "<group>"; };
+		E0421E3D0EFF9B3800937558 /* orxPlugin_Display.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Display.h; sourceTree = "<group>"; };
+		E0421E400EFF9B3800937558 /* orxPlugin_Joystick.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Joystick.h; sourceTree = "<group>"; };
+		E0421E410EFF9B3800937558 /* orxPlugin_Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Keyboard.h; sourceTree = "<group>"; };
+		E0421E420EFF9B3800937558 /* orxPlugin_Mouse.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Mouse.h; sourceTree = "<group>"; };
+		E0421E440EFF9B3800937558 /* orxPlugin_Physics.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Physics.h; sourceTree = "<group>"; };
+		E0421E450EFF9B3800937558 /* orxPlugin_Render.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_Render.h; sourceTree = "<group>"; };
+		E0421E470EFF9B3800937558 /* orxPlugin_SoundSystem.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin_SoundSystem.h; sourceTree = "<group>"; };
+		E0421E490EFF9B3800937558 /* orxPlugin.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPlugin.h; sourceTree = "<group>"; };
+		E0421E4A0EFF9B3800937558 /* orxPluginCore.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPluginCore.h; sourceTree = "<group>"; };
+		E0421E4B0EFF9B3800937558 /* orxPluginType.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPluginType.h; sourceTree = "<group>"; };
+		E0421E4C0EFF9B3800937558 /* orxPluginUser.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPluginUser.h; sourceTree = "<group>"; };
+		E0421E4E0EFF9B3800937558 /* orxCamera.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxCamera.h; sourceTree = "<group>"; };
+		E0421E4F0EFF9B3800937558 /* orxFX.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFX.h; sourceTree = "<group>"; };
+		E0421E500EFF9B3800937558 /* orxFXPointer.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxFXPointer.h; sourceTree = "<group>"; };
+		E0421E510EFF9B3800937558 /* orxRender.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxRender.h; sourceTree = "<group>"; };
+		E0421E520EFF9B3800937558 /* orxViewport.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxViewport.h; sourceTree = "<group>"; };
+		E0421E560EFF9B3800937558 /* orxSound.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxSound.h; sourceTree = "<group>"; };
+		E0421E570EFF9B3800937558 /* orxSoundPointer.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxSoundPointer.h; sourceTree = "<group>"; };
+		E0421E580EFF9B3800937558 /* orxSoundSystem.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxSoundSystem.h; sourceTree = "<group>"; };
+		E0421E5B0EFF9B3800937558 /* orxHashTable.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxHashTable.h; sourceTree = "<group>"; };
+		E0421E5C0EFF9B3800937558 /* orxLinkList.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxLinkList.h; sourceTree = "<group>"; };
+		E0421E5D0EFF9B3800937558 /* orxScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxScreenshot.h; sourceTree = "<group>"; };
+		E0421E5E0EFF9B3800937558 /* orxString.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxString.h; sourceTree = "<group>"; };
+		E0421E5F0EFF9B3800937558 /* orxTree.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxTree.h; sourceTree = "<group>"; };
+		E0421E620EFF9B4A00937558 /* orxAnim.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxAnim.c; sourceTree = "<group>"; };
+		E0421E630EFF9B4A00937558 /* orxAnimPointer.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxAnimPointer.c; sourceTree = "<group>"; };
+		E0421E640EFF9B4A00937558 /* orxAnimSet.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxAnimSet.c; sourceTree = "<group>"; };
+		E0421E660EFF9B4A00937558 /* orxModule.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxModule.c; sourceTree = "<group>"; };
+		E0421E670EFF9B4A00937558 /* orxType.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxType.c; sourceTree = "<group>"; };
+		E0421E690EFF9B4A00937558 /* orxClock.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxClock.c; sourceTree = "<group>"; };
+		E0421E6A0EFF9B4A00937558 /* orxConfig.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxConfig.c; sourceTree = "<group>"; };
+		E0421E6B0EFF9B4A00937558 /* orxEvent.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxEvent.c; sourceTree = "<group>"; };
+		E0421E6C0EFF9B4A00937558 /* orxSystem.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxSystem.c; sourceTree = "<group>"; };
+		E0421E6E0EFF9B4A00937558 /* orxDebug.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxDebug.c; sourceTree = "<group>"; };
+		E0421E6F0EFF9B4A00937558 /* orxFPS.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFPS.c; sourceTree = "<group>"; };
+		E0421E710EFF9B4A00937558 /* orxDisplay.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxDisplay.c; sourceTree = "<group>"; };
+		E0421E720EFF9B4A00937558 /* orxGraphic.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxGraphic.c; sourceTree = "<group>"; };
+		E0421E730EFF9B4A00937558 /* orxText.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxText.c; sourceTree = "<group>"; };
+		E0421E740EFF9B4A00937558 /* orxTexture.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxTexture.c; sourceTree = "<group>"; };
+		E0421E760EFF9B4A00937558 /* orxFile.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFile.c; sourceTree = "<group>"; };
+		E0421E770EFF9B4A00937558 /* orxFileSystem.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFileSystem.c; sourceTree = "<group>"; };
+		E0421E780EFF9B4A00937558 /* orxInput.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxInput.c; sourceTree = "<group>"; };
+		E0421E790EFF9B4A00937558 /* orxJoystick.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxJoystick.c; sourceTree = "<group>"; };
+		E0421E7A0EFF9B4A00937558 /* orxKeyboard.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxKeyboard.c; sourceTree = "<group>"; };
+		E0421E7B0EFF9B4A00937558 /* orxMouse.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxMouse.c; sourceTree = "<group>"; };
+		E0421E7E0EFF9B4A00937558 /* orxMain.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; name = orxMain.c; path = ../../../src/main/orxMain.c; sourceTree = "<group>"; };
+		E0421E7F0EFF9B4A00937558 /* orxParam.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxParam.c; sourceTree = "<group>"; };
+		E0421E810EFF9B4A00937558 /* orxMath.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxMath.c; sourceTree = "<group>"; };
+		E0421E820EFF9B4A00937558 /* orxVector.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxVector.c; sourceTree = "<group>"; };
+		E0421E840EFF9B4A00937558 /* orxBank.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxBank.c; sourceTree = "<group>"; };
+		E0421E850EFF9B4A00937558 /* orxMemory.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxMemory.c; sourceTree = "<group>"; };
+		E0421E870EFF9B4A00937558 /* orxFrame.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFrame.c; sourceTree = "<group>"; };
+		E0421E880EFF9B4A00937558 /* orxObject.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxObject.c; sourceTree = "<group>"; };
+		E0421E890EFF9B4A00937558 /* orxSpawner.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxSpawner.c; sourceTree = "<group>"; };
+		E0421E8A0EFF9B4A00937558 /* orxStructure.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxStructure.c; sourceTree = "<group>"; };
+		E0421E8C0EFF9B4A00937558 /* orxBody.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxBody.c; sourceTree = "<group>"; };
+		E0421E8D0EFF9B4A00937558 /* orxPhysics.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxPhysics.c; sourceTree = "<group>"; };
+		E0421E8F0EFF9B4A00937558 /* orxPlugin.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxPlugin.c; sourceTree = "<group>"; };
+		E0421E910EFF9B4A00937558 /* orxCamera.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxCamera.c; sourceTree = "<group>"; };
+		E0421E920EFF9B4A00937558 /* orxFX.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFX.c; sourceTree = "<group>"; };
+		E0421E930EFF9B4A00937558 /* orxFXPointer.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxFXPointer.c; sourceTree = "<group>"; };
+		E0421E940EFF9B4A00937558 /* orxRender.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxRender.c; sourceTree = "<group>"; };
+		E0421E950EFF9B4A00937558 /* orxViewport.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxViewport.c; sourceTree = "<group>"; };
+		E0421E990EFF9B4A00937558 /* orxSound.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxSound.c; sourceTree = "<group>"; };
+		E0421E9A0EFF9B4A00937558 /* orxSoundPointer.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxSoundPointer.c; sourceTree = "<group>"; };
+		E0421E9B0EFF9B4A00937558 /* orxSoundSystem.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxSoundSystem.c; sourceTree = "<group>"; };
+		E0421E9E0EFF9B4A00937558 /* orxHashTable.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxHashTable.c; sourceTree = "<group>"; };
+		E0421E9F0EFF9B4A00937558 /* orxLinkList.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxLinkList.c; sourceTree = "<group>"; };
+		E0421EA00EFF9B4A00937558 /* orxScreenshot.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxScreenshot.c; sourceTree = "<group>"; };
+		E0421EA10EFF9B4A00937558 /* orxString.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxString.c; sourceTree = "<group>"; };
+		E0421EA20EFF9B4A00937558 /* orxTree.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxTree.c; sourceTree = "<group>"; };
+		E0582BD40F022280005F4F4B /* orxBounce.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxBounce.c; sourceTree = "<group>"; };
+		E0582BD50F022280005F4F4B /* orxScroll.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxScroll.c; sourceTree = "<group>"; };
+		E0582BDA0F022280005F4F4B /* orxDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxDisplay.cpp; path = SFML/orxDisplay.cpp; sourceTree = "<group>"; };
+		E0582BE10F022280005F4F4B /* orxJoystick.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxJoystick.cpp; path = SFML/orxJoystick.cpp; sourceTree = "<group>"; };
+		E0582BE60F022280005F4F4B /* orxKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxKeyboard.cpp; path = SFML/orxKeyboard.cpp; sourceTree = "<group>"; };
+		E0582BEB0F022280005F4F4B /* orxMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxMouse.cpp; path = SFML/orxMouse.cpp; sourceTree = "<group>"; };
+		E0582BEE0F022280005F4F4B /* orxPhysics.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxPhysics.cpp; path = ../../../plugins/Physics/Box2D/orxPhysics.cpp; sourceTree = "<group>"; };
+		E0582BF10F022280005F4F4B /* orxRender.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; name = orxRender.c; path = ../../../plugins/Render/Home/orxRender.c; sourceTree = "<group>"; };
+		E0582BF70F022280005F4F4B /* orxSoundSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.cpp.cpp; name = orxSoundSystem.cpp; path = SFML/orxSoundSystem.cpp; sourceTree = "<group>"; };
+		E059AAA00F22E20700900DF0 /* liborx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liborx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059AAE30F22ECCA00900DF0 /* orx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = orx; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059AB230F22F35D00900DF0 /* orxRender_Home.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxRender_Home.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059AB3A0F22F47800900DF0 /* orxPhysics_Box2D.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxPhysics_Box2D.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059ABA70F22FD5D00900DF0 /* orxDisplay_SFML.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxDisplay_SFML.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059ABB50F22FD6200900DF0 /* orxKeyboard_SFML.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxKeyboard_SFML.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059ABC30F22FD6600900DF0 /* orxMouse_SFML.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxMouse_SFML.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059ABD10F22FD6A00900DF0 /* orxJoystick_SFML.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxJoystick_SFML.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059ABDF0F22FD6D00900DF0 /* orxSoundSystem_SFML.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = orxSoundSystem_SFML.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059AC460F2300F600900DF0 /* Bounce.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Bounce.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E070C4F910105D2F009CDBDD /* orxLocale.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxLocale.c; sourceTree = "<group>"; };
+		E070C4FA10105D44009CDBDD /* orxLocale.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxLocale.h; sourceTree = "<group>"; };
+		E0BE23880F23F982004CD397 /* Scroll.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Scroll.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CC631A0F96E19E00BCCD0D /* orxShader.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxShader.h; sourceTree = "<group>"; };
+		E0CC631B0F96E19E00BCCD0D /* orxShaderPointer.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxShaderPointer.h; sourceTree = "<group>"; };
+		E0CC631C0F96E1B700BCCD0D /* orxShader.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxShader.c; sourceTree = "<group>"; };
+		E0CC631D0F96E1B700BCCD0D /* orxShaderPointer.c */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.c; path = orxShaderPointer.c; sourceTree = "<group>"; };
+		E0E177E60F284C0300CAC5E4 /* orxPluginAPI.h */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = sourcecode.c.h; path = orxPluginAPI.h; sourceTree = "<group>"; };
+		E0F5E2DF0FE3371800FEB145 /* libsfml-audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsfml-audio.a"; path = "../../../../extern/SFML-1.5/lib/mac/libsfml-audio.a"; sourceTree = SOURCE_ROOT; };
+		E0F5E2E00FE3371800FEB145 /* libsfml-graphics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsfml-graphics.a"; path = "../../../../extern/SFML-1.5/lib/mac/libsfml-graphics.a"; sourceTree = SOURCE_ROOT; };
+		E0F5E2E10FE3371800FEB145 /* libsfml-system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsfml-system.a"; path = "../../../../extern/SFML-1.5/lib/mac/libsfml-system.a"; sourceTree = SOURCE_ROOT; };
+		E0F5E2E20FE3371800FEB145 /* libsfml-window.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsfml-window.a"; path = "../../../../extern/SFML-1.5/lib/mac/libsfml-window.a"; sourceTree = SOURCE_ROOT; };
+		E0F5E3330FE33BD400FEB145 /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = ../../../../extern/Box2D_2.0.1/Orx/lib/mac/libBox2D.a; sourceTree = SOURCE_ROOT; };
+		E0F5E3B50FE3521A00FEB145 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E059AAE10F22ECCA00900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AAEA0F22ED0700900DF0 /* liborx.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AB210F22F35D00900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AB2A0F22F37D00900DF0 /* liborx.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AB380F22F47800900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AB410F22F49800900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E3340FE33BF300FEB145 /* libBox2D.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABA10F22FD5D00900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F5E2AE0FE333B000FEB145 /* OpenGL.framework in Frameworks */,
+				E059ABA20F22FD5D00900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E2E30FE3372700FEB145 /* libsfml-graphics.a in Frameworks */,
+				E0F5E2E40FE3372700FEB145 /* libsfml-system.a in Frameworks */,
+				E0F5E2E50FE3372700FEB145 /* libsfml-window.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABAF0F22FD6200900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059ABB00F22FD6200900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E2E80FE3374D00FEB145 /* libsfml-system.a in Frameworks */,
+				E0F5E2E90FE3374D00FEB145 /* libsfml-window.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABBD0F22FD6600900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059ABBE0F22FD6600900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E2ED0FE3377400FEB145 /* libsfml-system.a in Frameworks */,
+				E0F5E2EE0FE3377400FEB145 /* libsfml-window.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABCB0F22FD6A00900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059ABCC0F22FD6A00900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E2E60FE3373C00FEB145 /* libsfml-system.a in Frameworks */,
+				E0F5E2E70FE3373C00FEB145 /* libsfml-window.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABD90F22FD6D00900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F5E3BC0FE3522700FEB145 /* OpenAL.framework in Frameworks */,
+				E059ABDA0F22FD6D00900DF0 /* liborx.dylib in Frameworks */,
+				E0F5E2EB0FE3376600FEB145 /* libsfml-audio.a in Frameworks */,
+				E0F5E2EC0FE3376600FEB145 /* libsfml-system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AC410F2300F600900DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC420F2300F600900DF0 /* liborx.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BE23830F23F982004CD397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BE23840F23F982004CD397 /* liborx.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E059AAA00F22E20700900DF0 /* liborx.dylib */,
+				E059AAE30F22ECCA00900DF0 /* orx */,
+				E059AB230F22F35D00900DF0 /* orxRender_Home.so */,
+				E059AB3A0F22F47800900DF0 /* orxPhysics_Box2D.so */,
+				E059ABA70F22FD5D00900DF0 /* orxDisplay_SFML.so */,
+				E059ABB50F22FD6200900DF0 /* orxKeyboard_SFML.so */,
+				E059ABC30F22FD6600900DF0 /* orxMouse_SFML.so */,
+				E059ABD10F22FD6A00900DF0 /* orxJoystick_SFML.so */,
+				E059ABDF0F22FD6D00900DF0 /* orxSoundSystem_SFML.so */,
+				E059AC460F2300F600900DF0 /* Bounce.so */,
+				E0BE23880F23F982004CD397 /* Scroll.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* orx */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = orx;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E0F5E3330FE33BD400FEB145 /* libBox2D.a */,
+				E0F5E2DF0FE3371800FEB145 /* libsfml-audio.a */,
+				E0F5E2E00FE3371800FEB145 /* libsfml-graphics.a */,
+				E0F5E2E10FE3371800FEB145 /* libsfml-system.a */,
+				E0F5E2E20FE3371800FEB145 /* libsfml-window.a */,
+				E0F5E3B50FE3521A00FEB145 /* OpenAL.framework */,
+				E031D7EC0F22AF3E0093B68F /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BD20F022280005F4F4B /* plugins */,
+				E0582BCF0F022224005F4F4B /* orx */,
+				E04B6D000EFF893F00634818 /* orxLIB */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E0421E050EFF9B3800937558 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E060EFF9B3800937558 /* anim */,
+				E0421E0A0EFF9B3800937558 /* base */,
+				E0421E0E0EFF9B3800937558 /* core */,
+				E0421E130EFF9B3800937558 /* debug */,
+				E0421E160EFF9B3800937558 /* display */,
+				E0421E1B0EFF9B3800937558 /* io */,
+				E0421E230EFF9B3800937558 /* main */,
+				E0421E250EFF9B3800937558 /* math */,
+				E0421E2A0EFF9B3800937558 /* memory */,
+				E0421E2D0EFF9B3800937558 /* object */,
+				E0421E360EFF9B3800937558 /* physics */,
+				E0421E390EFF9B3800937558 /* plugin */,
+				E0421E4D0EFF9B3800937558 /* render */,
+				E0421E550EFF9B3800937558 /* sound */,
+				E0421E590EFF9B3800937558 /* utils */,
+				E0421E320EFF9B3800937558 /* orx.h */,
+				E0421E330EFF9B3800937558 /* orxInclude.h */,
+				E0421E340EFF9B3800937558 /* orxKernel.h */,
+				E0E177E60F284C0300CAC5E4 /* orxPluginAPI.h */,
+				E0421E350EFF9B3800937558 /* orxUtils.h */,
+			);
+			name = include;
+			path = ../../../include;
+			sourceTree = SOURCE_ROOT;
+		};
+		E0421E060EFF9B3800937558 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E070EFF9B3800937558 /* orxAnim.h */,
+				E0421E080EFF9B3800937558 /* orxAnimPointer.h */,
+				E0421E090EFF9B3800937558 /* orxAnimSet.h */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		E0421E0A0EFF9B3800937558 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E0B0EFF9B3800937558 /* orxDecl.h */,
+				E0421E0C0EFF9B3800937558 /* orxModule.h */,
+				E0421E0D0EFF9B3800937558 /* orxType.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		E0421E0E0EFF9B3800937558 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E070C4FA10105D44009CDBDD /* orxLocale.h */,
+				E0421E0F0EFF9B3800937558 /* orxClock.h */,
+				E0421E100EFF9B3800937558 /* orxConfig.h */,
+				E0421E110EFF9B3800937558 /* orxEvent.h */,
+				E0421E120EFF9B3800937558 /* orxSystem.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E0421E130EFF9B3800937558 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E140EFF9B3800937558 /* orxDebug.h */,
+				E0421E150EFF9B3800937558 /* orxFPS.h */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		E0421E160EFF9B3800937558 /* display */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E170EFF9B3800937558 /* orxDisplay.h */,
+				E0421E180EFF9B3800937558 /* orxGraphic.h */,
+				E0421E190EFF9B3800937558 /* orxText.h */,
+				E0421E1A0EFF9B3800937558 /* orxTexture.h */,
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		E0421E1B0EFF9B3800937558 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E1C0EFF9B3800937558 /* orxFile.h */,
+				E0421E1D0EFF9B3800937558 /* orxFileSystem.h */,
+				E0421E1E0EFF9B3800937558 /* orxInput.h */,
+				E0421E1F0EFF9B3800937558 /* orxJoystick.h */,
+				E0421E200EFF9B3800937558 /* orxKeyboard.h */,
+				E0421E210EFF9B3800937558 /* orxMouse.h */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		E0421E230EFF9B3800937558 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E240EFF9B3800937558 /* orxParam.h */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		E0421E250EFF9B3800937558 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E260EFF9B3800937558 /* orxAABox.h */,
+				E0421E270EFF9B3800937558 /* orxMath.h */,
+				E0421E280EFF9B3800937558 /* orxOBox.h */,
+				E0421E290EFF9B3800937558 /* orxVector.h */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		E0421E2A0EFF9B3800937558 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E2B0EFF9B3800937558 /* orxBank.h */,
+				E0421E2C0EFF9B3800937558 /* orxMemory.h */,
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		E0421E2D0EFF9B3800937558 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E2E0EFF9B3800937558 /* orxFrame.h */,
+				E0421E2F0EFF9B3800937558 /* orxObject.h */,
+				E0421E300EFF9B3800937558 /* orxSpawner.h */,
+				E0421E310EFF9B3800937558 /* orxStructure.h */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		E0421E360EFF9B3800937558 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E370EFF9B3800937558 /* orxBody.h */,
+				E0421E380EFF9B3800937558 /* orxPhysics.h */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		E0421E390EFF9B3800937558 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E3A0EFF9B3800937558 /* define */,
+				E0421E490EFF9B3800937558 /* orxPlugin.h */,
+				E0421E4A0EFF9B3800937558 /* orxPluginCore.h */,
+				E0421E4B0EFF9B3800937558 /* orxPluginType.h */,
+				E0421E4C0EFF9B3800937558 /* orxPluginUser.h */,
+			);
+			path = plugin;
+			sourceTree = "<group>";
+		};
+		E0421E3A0EFF9B3800937558 /* define */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E3B0EFF9B3800937558 /* orxPlugin_CoreDefine.h */,
+				E0421E3C0EFF9B3800937558 /* orxPlugin_CoreID.h */,
+				E0421E3D0EFF9B3800937558 /* orxPlugin_Display.h */,
+				E0421E400EFF9B3800937558 /* orxPlugin_Joystick.h */,
+				E0421E410EFF9B3800937558 /* orxPlugin_Keyboard.h */,
+				E0421E420EFF9B3800937558 /* orxPlugin_Mouse.h */,
+				E0421E440EFF9B3800937558 /* orxPlugin_Physics.h */,
+				E0421E450EFF9B3800937558 /* orxPlugin_Render.h */,
+				E0421E470EFF9B3800937558 /* orxPlugin_SoundSystem.h */,
+			);
+			path = define;
+			sourceTree = "<group>";
+		};
+		E0421E4D0EFF9B3800937558 /* render */ = {
+			isa = PBXGroup;
+			children = (
+				E0CC631A0F96E19E00BCCD0D /* orxShader.h */,
+				E0CC631B0F96E19E00BCCD0D /* orxShaderPointer.h */,
+				E0421E4E0EFF9B3800937558 /* orxCamera.h */,
+				E0421E4F0EFF9B3800937558 /* orxFX.h */,
+				E0421E500EFF9B3800937558 /* orxFXPointer.h */,
+				E0421E510EFF9B3800937558 /* orxRender.h */,
+				E0421E520EFF9B3800937558 /* orxViewport.h */,
+			);
+			path = render;
+			sourceTree = "<group>";
+		};
+		E0421E550EFF9B3800937558 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E560EFF9B3800937558 /* orxSound.h */,
+				E0421E570EFF9B3800937558 /* orxSoundPointer.h */,
+				E0421E580EFF9B3800937558 /* orxSoundSystem.h */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		E0421E590EFF9B3800937558 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E5B0EFF9B3800937558 /* orxHashTable.h */,
+				E0421E5C0EFF9B3800937558 /* orxLinkList.h */,
+				E0421E5D0EFF9B3800937558 /* orxScreenshot.h */,
+				E0421E5E0EFF9B3800937558 /* orxString.h */,
+				E0421E5F0EFF9B3800937558 /* orxTree.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E0421E600EFF9B4A00937558 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E610EFF9B4A00937558 /* anim */,
+				E0421E650EFF9B4A00937558 /* base */,
+				E0421E680EFF9B4A00937558 /* core */,
+				E0421E6D0EFF9B4A00937558 /* debug */,
+				E0421E700EFF9B4A00937558 /* display */,
+				E0421E750EFF9B4A00937558 /* io */,
+				E0421E7D0EFF9B4A00937558 /* main */,
+				E0421E800EFF9B4A00937558 /* math */,
+				E0421E830EFF9B4A00937558 /* memory */,
+				E0421E860EFF9B4A00937558 /* object */,
+				E0421E8B0EFF9B4A00937558 /* physics */,
+				E0421E8E0EFF9B4A00937558 /* plugin */,
+				E0421E900EFF9B4A00937558 /* render */,
+				E0421E980EFF9B4A00937558 /* sound */,
+				E0421E9C0EFF9B4A00937558 /* utils */,
+			);
+			name = src;
+			path = ../../../src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E0421E610EFF9B4A00937558 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E620EFF9B4A00937558 /* orxAnim.c */,
+				E0421E630EFF9B4A00937558 /* orxAnimPointer.c */,
+				E0421E640EFF9B4A00937558 /* orxAnimSet.c */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		E0421E650EFF9B4A00937558 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E660EFF9B4A00937558 /* orxModule.c */,
+				E0421E670EFF9B4A00937558 /* orxType.c */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		E0421E680EFF9B4A00937558 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E070C4F910105D2F009CDBDD /* orxLocale.c */,
+				E0421E690EFF9B4A00937558 /* orxClock.c */,
+				E0421E6A0EFF9B4A00937558 /* orxConfig.c */,
+				E0421E6B0EFF9B4A00937558 /* orxEvent.c */,
+				E0421E6C0EFF9B4A00937558 /* orxSystem.c */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E0421E6D0EFF9B4A00937558 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E6E0EFF9B4A00937558 /* orxDebug.c */,
+				E0421E6F0EFF9B4A00937558 /* orxFPS.c */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		E0421E700EFF9B4A00937558 /* display */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E710EFF9B4A00937558 /* orxDisplay.c */,
+				E0421E720EFF9B4A00937558 /* orxGraphic.c */,
+				E0421E730EFF9B4A00937558 /* orxText.c */,
+				E0421E740EFF9B4A00937558 /* orxTexture.c */,
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		E0421E750EFF9B4A00937558 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E760EFF9B4A00937558 /* orxFile.c */,
+				E0421E770EFF9B4A00937558 /* orxFileSystem.c */,
+				E0421E780EFF9B4A00937558 /* orxInput.c */,
+				E0421E790EFF9B4A00937558 /* orxJoystick.c */,
+				E0421E7A0EFF9B4A00937558 /* orxKeyboard.c */,
+				E0421E7B0EFF9B4A00937558 /* orxMouse.c */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		E0421E7D0EFF9B4A00937558 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E7F0EFF9B4A00937558 /* orxParam.c */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		E0421E800EFF9B4A00937558 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E810EFF9B4A00937558 /* orxMath.c */,
+				E0421E820EFF9B4A00937558 /* orxVector.c */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		E0421E830EFF9B4A00937558 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E840EFF9B4A00937558 /* orxBank.c */,
+				E0421E850EFF9B4A00937558 /* orxMemory.c */,
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		E0421E860EFF9B4A00937558 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E870EFF9B4A00937558 /* orxFrame.c */,
+				E0421E880EFF9B4A00937558 /* orxObject.c */,
+				E0421E890EFF9B4A00937558 /* orxSpawner.c */,
+				E0421E8A0EFF9B4A00937558 /* orxStructure.c */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		E0421E8B0EFF9B4A00937558 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E8C0EFF9B4A00937558 /* orxBody.c */,
+				E0421E8D0EFF9B4A00937558 /* orxPhysics.c */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		E0421E8E0EFF9B4A00937558 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E8F0EFF9B4A00937558 /* orxPlugin.c */,
+			);
+			path = plugin;
+			sourceTree = "<group>";
+		};
+		E0421E900EFF9B4A00937558 /* render */ = {
+			isa = PBXGroup;
+			children = (
+				E0CC631C0F96E1B700BCCD0D /* orxShader.c */,
+				E0CC631D0F96E1B700BCCD0D /* orxShaderPointer.c */,
+				E0421E910EFF9B4A00937558 /* orxCamera.c */,
+				E0421E920EFF9B4A00937558 /* orxFX.c */,
+				E0421E930EFF9B4A00937558 /* orxFXPointer.c */,
+				E0421E940EFF9B4A00937558 /* orxRender.c */,
+				E0421E950EFF9B4A00937558 /* orxViewport.c */,
+			);
+			path = render;
+			sourceTree = "<group>";
+		};
+		E0421E980EFF9B4A00937558 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E990EFF9B4A00937558 /* orxSound.c */,
+				E0421E9A0EFF9B4A00937558 /* orxSoundPointer.c */,
+				E0421E9B0EFF9B4A00937558 /* orxSoundSystem.c */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		E0421E9C0EFF9B4A00937558 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E9E0EFF9B4A00937558 /* orxHashTable.c */,
+				E0421E9F0EFF9B4A00937558 /* orxLinkList.c */,
+				E0421EA00EFF9B4A00937558 /* orxScreenshot.c */,
+				E0421EA10EFF9B4A00937558 /* orxString.c */,
+				E0421EA20EFF9B4A00937558 /* orxTree.c */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E04B6D000EFF893F00634818 /* orxLIB */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E050EFF9B3800937558 /* include */,
+				E0421E600EFF9B4A00937558 /* src */,
+			);
+			name = orxLIB;
+			sourceTree = "<group>";
+		};
+		E0582BCF0F022224005F4F4B /* orx */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BD00F022237005F4F4B /* src */,
+			);
+			name = orx;
+			sourceTree = "<group>";
+		};
+		E0582BD00F022237005F4F4B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BD10F02223E005F4F4B /* main */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E0582BD10F02223E005F4F4B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E0421E7E0EFF9B4A00937558 /* orxMain.c */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		E0582BD20F022280005F4F4B /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BD30F022280005F4F4B /* Demo */,
+				E0582BD60F022280005F4F4B /* orxDisplay_SFML */,
+				E0582BDF0F022280005F4F4B /* orxJoystick_SFML */,
+				E0582BE20F022280005F4F4B /* orxKeyboard_SFML */,
+				E0582BE70F022280005F4F4B /* orxMouse_SFML */,
+				E0C0CFD40F08740500E8A1F9 /* orxPhysics_Box2D */,
+				E0582BFD0F022288005F4F4B /* orxRender_Home */,
+				E0582BF50F022280005F4F4B /* orxSoundSystem_SFML */,
+			);
+			name = plugins;
+			path = ../../../plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		E0582BD30F022280005F4F4B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BD40F022280005F4F4B /* orxBounce.c */,
+				E0582BD50F022280005F4F4B /* orxScroll.c */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E0582BD60F022280005F4F4B /* orxDisplay_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BDA0F022280005F4F4B /* orxDisplay.cpp */,
+			);
+			name = orxDisplay_SFML;
+			path = Display;
+			sourceTree = "<group>";
+		};
+		E0582BDF0F022280005F4F4B /* orxJoystick_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BE10F022280005F4F4B /* orxJoystick.cpp */,
+			);
+			name = orxJoystick_SFML;
+			path = Joystick;
+			sourceTree = "<group>";
+		};
+		E0582BE20F022280005F4F4B /* orxKeyboard_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BE60F022280005F4F4B /* orxKeyboard.cpp */,
+			);
+			name = orxKeyboard_SFML;
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		E0582BE70F022280005F4F4B /* orxMouse_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BEB0F022280005F4F4B /* orxMouse.cpp */,
+			);
+			name = orxMouse_SFML;
+			path = Mouse;
+			sourceTree = "<group>";
+		};
+		E0582BF50F022280005F4F4B /* orxSoundSystem_SFML */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BF70F022280005F4F4B /* orxSoundSystem.cpp */,
+			);
+			name = orxSoundSystem_SFML;
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		E0582BFD0F022288005F4F4B /* orxRender_Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BF10F022280005F4F4B /* orxRender.c */,
+			);
+			name = orxRender_Home;
+			path = ../build/mac/xcode;
+			sourceTree = "<group>";
+		};
+		E0C0CFD40F08740500E8A1F9 /* orxPhysics_Box2D */ = {
+			isa = PBXGroup;
+			children = (
+				E0582BEE0F022280005F4F4B /* orxPhysics.cpp */,
+			);
+			name = orxPhysics_Box2D;
+			path = ../build/mac/xcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E059AA9F0F22E20700900DF0 /* orxLIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059AAA30F22E24300900DF0 /* Build configuration list for PBXNativeTarget "orxLIB" */;
+			buildPhases = (
+				E059AA9D0F22E20700900DF0 /* Sources */,
+				E059AADB0F22EAF700900DF0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orxLIB;
+			productName = orxLIB;
+			productReference = E059AAA00F22E20700900DF0 /* liborx.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059AAE20F22ECCA00900DF0 /* orx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059AAEC0F22ED3700900DF0 /* Build configuration list for PBXNativeTarget "orx" */;
+			buildPhases = (
+				E059AAE00F22ECCA00900DF0 /* Sources */,
+				E059AAE10F22ECCA00900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059AAE80F22ECE200900DF0 /* PBXTargetDependency */,
+			);
+			name = orx;
+			productName = orx;
+			productReference = E059AAE30F22ECCA00900DF0 /* orx */;
+			productType = "com.apple.product-type.tool";
+		};
+		E059AB220F22F35D00900DF0 /* orxRender_Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059AB2C0F22F3A300900DF0 /* Build configuration list for PBXNativeTarget "orxRender_Home" */;
+			buildPhases = (
+				E059AB200F22F35D00900DF0 /* Sources */,
+				E059AB210F22F35D00900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059AB270F22F36900900DF0 /* PBXTargetDependency */,
+				E059AB290F22F36900900DF0 /* PBXTargetDependency */,
+			);
+			name = orxRender_Home;
+			productName = orxRender_Home;
+			productReference = E059AB230F22F35D00900DF0 /* orxRender_Home.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059AB390F22F47800900DF0 /* orxPhysics_Box2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059AB430F22F54D00900DF0 /* Build configuration list for PBXNativeTarget "orxPhysics_Box2D" */;
+			buildPhases = (
+				E059AB370F22F47800900DF0 /* Sources */,
+				E059AB380F22F47800900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059AB3E0F22F48500900DF0 /* PBXTargetDependency */,
+				E059AB400F22F48500900DF0 /* PBXTargetDependency */,
+			);
+			name = orxPhysics_Box2D;
+			productName = orxPhysics_Box2D;
+			productReference = E059AB3A0F22F47800900DF0 /* orxPhysics_Box2D.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059AB9A0F22FD5D00900DF0 /* orxDisplay_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059ABA40F22FD5D00900DF0 /* Build configuration list for PBXNativeTarget "orxDisplay_SFML" */;
+			buildPhases = (
+				E059AB9F0F22FD5D00900DF0 /* Sources */,
+				E059ABA10F22FD5D00900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059AB9B0F22FD5D00900DF0 /* PBXTargetDependency */,
+				E059AB9D0F22FD5D00900DF0 /* PBXTargetDependency */,
+			);
+			name = orxDisplay_SFML;
+			productName = orxSystem_SFML;
+			productReference = E059ABA70F22FD5D00900DF0 /* orxDisplay_SFML.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059ABA80F22FD6200900DF0 /* orxKeyboard_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059ABB20F22FD6200900DF0 /* Build configuration list for PBXNativeTarget "orxKeyboard_SFML" */;
+			buildPhases = (
+				E059ABAD0F22FD6200900DF0 /* Sources */,
+				E059ABAF0F22FD6200900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059ABA90F22FD6200900DF0 /* PBXTargetDependency */,
+				E059ABAB0F22FD6200900DF0 /* PBXTargetDependency */,
+			);
+			name = orxKeyboard_SFML;
+			productName = orxSystem_SFML;
+			productReference = E059ABB50F22FD6200900DF0 /* orxKeyboard_SFML.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059ABB60F22FD6600900DF0 /* orxMouse_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059ABC00F22FD6600900DF0 /* Build configuration list for PBXNativeTarget "orxMouse_SFML" */;
+			buildPhases = (
+				E059ABBB0F22FD6600900DF0 /* Sources */,
+				E059ABBD0F22FD6600900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059ABB70F22FD6600900DF0 /* PBXTargetDependency */,
+				E059ABB90F22FD6600900DF0 /* PBXTargetDependency */,
+			);
+			name = orxMouse_SFML;
+			productName = orxSystem_SFML;
+			productReference = E059ABC30F22FD6600900DF0 /* orxMouse_SFML.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059ABC40F22FD6A00900DF0 /* orxJoystick_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059ABCE0F22FD6A00900DF0 /* Build configuration list for PBXNativeTarget "orxJoystick_SFML" */;
+			buildPhases = (
+				E059ABC90F22FD6A00900DF0 /* Sources */,
+				E059ABCB0F22FD6A00900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059ABC50F22FD6A00900DF0 /* PBXTargetDependency */,
+				E059ABC70F22FD6A00900DF0 /* PBXTargetDependency */,
+			);
+			name = orxJoystick_SFML;
+			productName = orxSystem_SFML;
+			productReference = E059ABD10F22FD6A00900DF0 /* orxJoystick_SFML.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059ABD20F22FD6D00900DF0 /* orxSoundSystem_SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059ABDC0F22FD6D00900DF0 /* Build configuration list for PBXNativeTarget "orxSoundSystem_SFML" */;
+			buildPhases = (
+				E059ABD70F22FD6D00900DF0 /* Sources */,
+				E059ABD90F22FD6D00900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059ABD30F22FD6D00900DF0 /* PBXTargetDependency */,
+				E059ABD50F22FD6D00900DF0 /* PBXTargetDependency */,
+			);
+			name = orxSoundSystem_SFML;
+			productName = orxSystem_SFML;
+			productReference = E059ABDF0F22FD6D00900DF0 /* orxSoundSystem_SFML.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E059AC3A0F2300F600900DF0 /* Bounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E059AC430F2300F600900DF0 /* Build configuration list for PBXNativeTarget "Bounce" */;
+			buildPhases = (
+				E059AC3F0F2300F600900DF0 /* Sources */,
+				E059AC410F2300F600900DF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059AC3B0F2300F600900DF0 /* PBXTargetDependency */,
+				E059AC3D0F2300F600900DF0 /* PBXTargetDependency */,
+			);
+			name = Bounce;
+			productName = orxRender_Home;
+			productReference = E059AC460F2300F600900DF0 /* Bounce.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E0BE237C0F23F982004CD397 /* Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BE23850F23F982004CD397 /* Build configuration list for PBXNativeTarget "Scroll" */;
+			buildPhases = (
+				E0BE23810F23F982004CD397 /* Sources */,
+				E0BE23830F23F982004CD397 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BE237D0F23F982004CD397 /* PBXTargetDependency */,
+				E0BE237F0F23F982004CD397 /* PBXTargetDependency */,
+			);
+			name = Scroll;
+			productName = orxRender_Home;
+			productReference = E0BE23880F23F982004CD397 /* Scroll.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "orx" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* orx */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E059AC040F22FEE800900DF0 /* All */,
+				E059AA9F0F22E20700900DF0 /* orxLIB */,
+				E059AAE20F22ECCA00900DF0 /* orx */,
+				E059AB9A0F22FD5D00900DF0 /* orxDisplay_SFML */,
+				E059ABC40F22FD6A00900DF0 /* orxJoystick_SFML */,
+				E059ABA80F22FD6200900DF0 /* orxKeyboard_SFML */,
+				E059ABB60F22FD6600900DF0 /* orxMouse_SFML */,
+				E059AB390F22F47800900DF0 /* orxPhysics_Box2D */,
+				E059AB220F22F35D00900DF0 /* orxRender_Home */,
+				E059ABD20F22FD6D00900DF0 /* orxSoundSystem_SFML */,
+				E059AC3A0F2300F600900DF0 /* Bounce */,
+				E0BE237C0F23F982004CD397 /* Scroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E059AA9D0F22E20700900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AAA90F22EA9900900DF0 /* orxAnim.c in Sources */,
+				E059AAAA0F22EA9900900DF0 /* orxAnimPointer.c in Sources */,
+				E059AAAB0F22EA9900900DF0 /* orxAnimSet.c in Sources */,
+				E059AAAC0F22EA9900900DF0 /* orxBank.c in Sources */,
+				E059AAAD0F22EA9900900DF0 /* orxBody.c in Sources */,
+				E059AAAE0F22EA9900900DF0 /* orxCamera.c in Sources */,
+				E059AAAF0F22EA9900900DF0 /* orxClock.c in Sources */,
+				E059AAB00F22EA9900900DF0 /* orxConfig.c in Sources */,
+				E059AAB10F22EA9900900DF0 /* orxDebug.c in Sources */,
+				E059AAB20F22EA9900900DF0 /* orxDisplay.c in Sources */,
+				E059AAB30F22EA9900900DF0 /* orxEvent.c in Sources */,
+				E059AAB40F22EA9900900DF0 /* orxFile.c in Sources */,
+				E059AAB50F22EA9900900DF0 /* orxFileSystem.c in Sources */,
+				E059AAB60F22EA9900900DF0 /* orxFPS.c in Sources */,
+				E059AAB70F22EA9900900DF0 /* orxFrame.c in Sources */,
+				E059AAB90F22EA9900900DF0 /* orxFX.c in Sources */,
+				E059AABA0F22EA9900900DF0 /* orxFXPointer.c in Sources */,
+				E059AABB0F22EA9900900DF0 /* orxGraphic.c in Sources */,
+				E059AABC0F22EA9900900DF0 /* orxHashTable.c in Sources */,
+				E059AABD0F22EA9900900DF0 /* orxInput.c in Sources */,
+				E059AABE0F22EA9900900DF0 /* orxJoystick.c in Sources */,
+				E059AABF0F22EA9900900DF0 /* orxKeyboard.c in Sources */,
+				E059AAC00F22EA9900900DF0 /* orxLinkList.c in Sources */,
+				E070C4FF10105D87009CDBDD /* orxLocale.c in Sources */,
+				E059AAC10F22EA9900900DF0 /* orxMath.c in Sources */,
+				E059AAC20F22EA9900900DF0 /* orxMemory.c in Sources */,
+				E059AAC30F22EA9900900DF0 /* orxModule.c in Sources */,
+				E059AAC40F22EA9900900DF0 /* orxMouse.c in Sources */,
+				E059AAC50F22EA9900900DF0 /* orxObject.c in Sources */,
+				E059AAC70F22EA9900900DF0 /* orxParam.c in Sources */,
+				E059AAC80F22EA9900900DF0 /* orxPhysics.c in Sources */,
+				E059AAC90F22EA9900900DF0 /* orxPlugin.c in Sources */,
+				E059AACA0F22EA9900900DF0 /* orxRender.c in Sources */,
+				E059AACB0F22EA9900900DF0 /* orxScreenshot.c in Sources */,
+				E0CC631E0F96E1C600BCCD0D /* orxShader.c in Sources */,
+				E0CC631F0F96E1C600BCCD0D /* orxShaderPointer.c in Sources */,
+				E059AACD0F22EA9900900DF0 /* orxSound.c in Sources */,
+				E059AACE0F22EA9900900DF0 /* orxSoundPointer.c in Sources */,
+				E059AACF0F22EA9900900DF0 /* orxSoundSystem.c in Sources */,
+				E059AAD00F22EA9900900DF0 /* orxSpawner.c in Sources */,
+				E059AAD10F22EA9900900DF0 /* orxString.c in Sources */,
+				E059AAD20F22EA9900900DF0 /* orxStructure.c in Sources */,
+				E059AAD30F22EA9900900DF0 /* orxSystem.c in Sources */,
+				E059AAD40F22EA9900900DF0 /* orxText.c in Sources */,
+				E059AAD50F22EA9900900DF0 /* orxTexture.c in Sources */,
+				E059AAD60F22EA9900900DF0 /* orxTree.c in Sources */,
+				E059AAD70F22EA9900900DF0 /* orxType.c in Sources */,
+				E059AAD80F22EA9900900DF0 /* orxVector.c in Sources */,
+				E059AAD90F22EA9900900DF0 /* orxViewport.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AAE00F22ECCA00900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AAEB0F22ED1900900DF0 /* orxMain.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AB200F22F35D00900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AB2B0F22F38500900DF0 /* orxRender.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AB370F22F47800900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AB420F22F4A800900DF0 /* orxPhysics.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AB9F0F22FD5D00900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059ABED0F22FD9B00900DF0 /* orxDisplay.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABAD0F22FD6200900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC250F22FFF500900DF0 /* orxKeyboard.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABBB0F22FD6600900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC280F23000F00900DF0 /* orxMouse.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABC90F22FD6A00900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC210F22FFD000900DF0 /* orxJoystick.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059ABD70F22FD6D00900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC2B0F23003000900DF0 /* orxSoundSystem.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059AC3F0F2300F600900DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E059AC470F23011000900DF0 /* orxBounce.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BE23810F23F982004CD397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BE23890F23F9A0004CD397 /* orxScroll.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E059AAE80F22ECE200900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AAE70F22ECE200900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB270F22F36900900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AB260F22F36900900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB290F22F36900900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059AB280F22F36900900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB3E0F22F48500900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AB3D0F22F48500900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB400F22F48500900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059AB3F0F22F48500900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB9B0F22FD5D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AB9C0F22FD5D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AB9D0F22FD5D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059AB9E0F22FD5D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABA90F22FD6200900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059ABAA0F22FD6200900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABAB0F22FD6200900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059ABAC0F22FD6200900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABB70F22FD6600900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059ABB80F22FD6600900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABB90F22FD6600900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059ABBA0F22FD6600900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABC50F22FD6A00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059ABC60F22FD6A00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABC70F22FD6A00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059ABC80F22FD6A00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABD30F22FD6D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059ABD40F22FD6D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059ABD50F22FD6D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059ABD60F22FD6D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC090F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AC080F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC0B0F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059AC0A0F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC0D0F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AB220F22F35D00900DF0 /* orxRender_Home */;
+			targetProxy = E059AC0C0F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC0F0F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AB390F22F47800900DF0 /* orxPhysics_Box2D */;
+			targetProxy = E059AC0E0F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC130F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AB9A0F22FD5D00900DF0 /* orxDisplay_SFML */;
+			targetProxy = E059AC120F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC150F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059ABA80F22FD6200900DF0 /* orxKeyboard_SFML */;
+			targetProxy = E059AC140F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC170F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059ABB60F22FD6600900DF0 /* orxMouse_SFML */;
+			targetProxy = E059AC160F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC190F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059ABC40F22FD6A00900DF0 /* orxJoystick_SFML */;
+			targetProxy = E059AC180F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC1B0F22FF1D00900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059ABD20F22FD6D00900DF0 /* orxSoundSystem_SFML */;
+			targetProxy = E059AC1A0F22FF1D00900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC3B0F2300F600900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E059AC3C0F2300F600900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC3D0F2300F600900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E059AC3E0F2300F600900DF0 /* PBXContainerItemProxy */;
+		};
+		E059AC490F23014200900DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AC3A0F2300F600900DF0 /* Bounce */;
+			targetProxy = E059AC480F23014200900DF0 /* PBXContainerItemProxy */;
+		};
+		E0BE237D0F23F982004CD397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AA9F0F22E20700900DF0 /* orxLIB */;
+			targetProxy = E0BE237E0F23F982004CD397 /* PBXContainerItemProxy */;
+		};
+		E0BE237F0F23F982004CD397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E059AAE20F22ECCA00900DF0 /* orx */;
+			targetProxy = E0BE23800F23F982004CD397 /* PBXContainerItemProxy */;
+		};
+		E0BE238B0F23F9C7004CD397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BE237C0F23F982004CD397 /* Scroll */;
+			targetProxy = E0BE238A0F23F9C7004CD397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_ENABLE_PASCAL_STRINGS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = __orxDEBUG__;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = ../../../lib/dynamic;
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = build;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SYMROOT = ../../../;
+				USER_HEADER_SEARCH_PATHS = ../../../include;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_ENABLE_PASCAL_STRINGS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = ../../../lib/dynamic;
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = build;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SKIP_INSTALL = YES;
+				SYMROOT = ../../../;
+				USER_HEADER_SEARCH_PATHS = ../../../include;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Release;
+		};
+		E059AAA10F22E20800900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				GCC_AUTO_VECTORIZATION = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				INSTALL_PATH = "@executable_path";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = liborxd;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SYMROOT = ../../../lib/dynamic;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059AAA20F22E20800900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				INSTALL_PATH = "@executable_path";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = liborx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../lib/dynamic;
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059AAE50F22ECCB00900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_AUTO_VECTORIZATION = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = __orxDEBUG__;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxd;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				SYMROOT = ../../../bin;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059AAE60F22ECCB00900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin;
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059AB240F22F35E00900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxRender_Homed;
+				SYMROOT = ../../../bin/plugins;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059AB250F22F35E00900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxRender_Home;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059AB3B0F22F47900900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					../../../../extern/Box2D_2.0.1/Orx/lib/mac,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/Box2D_2.0.1/Orx/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxPhysics_Box2Dd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/Box2D_2.0.1/Orx/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059AB3C0F22F47900900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					../../../../extern/Box2D_2.0.1/Orx/lib/mac,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/Box2D_2.0.1/Orx/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxPhysics_Box2D;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/Box2D_2.0.1/Orx/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059ABA50F22FD5D00900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxDisplay_SFMLd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059ABA60F22FD5D00900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxDisplay_SFML;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059ABB30F22FD6200900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxKeyboard_SFMLd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059ABB40F22FD6200900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxKeyboard_SFML;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059ABC10F22FD6600900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxMouse_SFMLd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059ABC20F22FD6600900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxMouse_SFML;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059ABCF0F22FD6A00900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxJoystick_SFMLd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059ABD00F22FD6A00900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxJoystick_SFML;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059ABDD0F22FD6D00900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/extlibs/bin\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/extlibs/bin\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxSoundSystem_SFMLd;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059ABDE0F22FD6D00900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/extlibs/bin\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/extlibs/bin\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					../../../lib/dynamic,
+					"../../../../extern/SFML-1.5/lib/mac",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../extern/SFML-1.5/lib/mac\"";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = orxSoundSystem_SFML;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins;
+				USER_HEADER_SEARCH_PATHS = "../../../include ../../../../extern/SFML-1.5/include";
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059AC050F22FEE800900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		E059AC060F22FEE800900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E059AC440F2300F600900DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Bounced;
+				SYMROOT = ../../../bin/plugins/demo;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E059AC450F2300F600900DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Bounce;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins/demo;
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E0BE23860F23F982004CD397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Scrolld;
+				SYMROOT = ../../../bin/plugins/demo;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		E0BE23870F23F982004CD397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@executable_path";
+				LD_DYLIB_INSTALL_NAME = "";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Scroll;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = ../../../bin/plugins/demo;
+				VALID_ARCHS = "i386 ppc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "orx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AAA30F22E24300900DF0 /* Build configuration list for PBXNativeTarget "orxLIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AAA10F22E20800900DF0 /* Debug */,
+				E059AAA20F22E20800900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AAEC0F22ED3700900DF0 /* Build configuration list for PBXNativeTarget "orx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AAE50F22ECCB00900DF0 /* Debug */,
+				E059AAE60F22ECCB00900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AB2C0F22F3A300900DF0 /* Build configuration list for PBXNativeTarget "orxRender_Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AB240F22F35E00900DF0 /* Debug */,
+				E059AB250F22F35E00900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AB430F22F54D00900DF0 /* Build configuration list for PBXNativeTarget "orxPhysics_Box2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AB3B0F22F47900900DF0 /* Debug */,
+				E059AB3C0F22F47900900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059ABA40F22FD5D00900DF0 /* Build configuration list for PBXNativeTarget "orxDisplay_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059ABA50F22FD5D00900DF0 /* Debug */,
+				E059ABA60F22FD5D00900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059ABB20F22FD6200900DF0 /* Build configuration list for PBXNativeTarget "orxKeyboard_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059ABB30F22FD6200900DF0 /* Debug */,
+				E059ABB40F22FD6200900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059ABC00F22FD6600900DF0 /* Build configuration list for PBXNativeTarget "orxMouse_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059ABC10F22FD6600900DF0 /* Debug */,
+				E059ABC20F22FD6600900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059ABCE0F22FD6A00900DF0 /* Build configuration list for PBXNativeTarget "orxJoystick_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059ABCF0F22FD6A00900DF0 /* Debug */,
+				E059ABD00F22FD6A00900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059ABDC0F22FD6D00900DF0 /* Build configuration list for PBXNativeTarget "orxSoundSystem_SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059ABDD0F22FD6D00900DF0 /* Debug */,
+				E059ABDE0F22FD6D00900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AC070F22FF0600900DF0 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AC050F22FEE800900DF0 /* Debug */,
+				E059AC060F22FEE800900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E059AC430F2300F600900DF0 /* Build configuration list for PBXNativeTarget "Bounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E059AC440F2300F600900DF0 /* Debug */,
+				E059AC450F2300F600900DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BE23850F23F982004CD397 /* Build configuration list for PBXNativeTarget "Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BE23860F23F982004CD397 /* Debug */,
+				E0BE23870F23F982004CD397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

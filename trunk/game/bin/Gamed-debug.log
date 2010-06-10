@@ -1,0 +1,28 @@
+[2010-06-10 14:57:00] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2376) [e:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Begins the processing of included file @Game.ini@.
+[2010-06-10 14:57:00] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2582) Config file [Game.ini] couldn't be loaded.
+[2010-06-10 14:57:00] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2382) [e:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Ends the processing of included file @Game.ini@.
+[2010-06-10 14:57:06] <INPUT> (orxInput_GetBindingName() - e:\mysrc\orx_game\trunk\orx\src\io\orxinput.c:2002) Input type <-1> is not recognized!
+[2010-06-10 14:57:06] <INPUT> (orxInput_GetBindingName() - e:\mysrc\orx_game\trunk\orx\src\io\orxinput.c:2002) Input type <-1> is not recognized!
+[2010-06-10 14:57:06] <OBJECT> (orxObject_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\object\orxobject.c:1141) Failed to find config section named Logo.
+[2010-06-10 14:57:06] <ASSERT> (orxObject_SetUserData() - e:\mysrc\orx_game\trunk\orx\src\object\orxobject.c:1448) [Assertion failed] : <(_pstObject) != orxNULL>
+[2010-06-10 14:57:35] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2376) [e:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Begins the processing of included file @Game.ini@.
+[2010-06-10 14:57:35] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2582) Config file [Game.ini] couldn't be loaded.
+[2010-06-10 14:57:35] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2382) [e:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Ends the processing of included file @Game.ini@.
+[2010-06-10 14:57:38] <INPUT> (orxInput_GetBindingName() - e:\mysrc\orx_game\trunk\orx\src\io\orxinput.c:2002) Input type <-1> is not recognized!
+[2010-06-10 14:57:38] <INPUT> (orxInput_GetBindingName() - e:\mysrc\orx_game\trunk\orx\src\io\orxinput.c:2002) Input type <-1> is not recognized!
+[2010-06-10 14:59:59] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 14:59:59] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:12:28] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:12:28] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:13:46] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:13:46] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:14:48] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:14:48] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:16:51] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:16:51] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:17:52] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:17:52] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 15:19:28] <DISPLAY> (orxTexture_CreateFromFile() - e:\mysrc\orx_game\trunk\orx\src\display\orxtexture.c:343) Failed to load bitmap and link it to texture.
+[2010-06-10 15:19:28] <DISPLAY> (orxGraphic_CreateFromConfig() - e:\mysrc\orx_game\trunk\orx\src\display\orxgraphic.c:560) Couldn't get text or texture for graphic (LogoGraphic).
+[2010-06-10 16:36:55] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2376) [E:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Begins the processing of included file @Game.ini@.
+[2010-06-10 16:36:55] <SYSTEM> (orxConfig_Load() - e:\mysrc\orx_game\trunk\orx\src\core\orxconfig.c:2382) [E:\MySrc\orx_game\trunk\game\bin\Gamed.ini]: Ends the processing of included file @Game.ini@.

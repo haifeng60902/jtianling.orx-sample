@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game.vcproj", "{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB} = {590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "orxLIB", "..\..\..\orx\build\windows\msvs2008\orxLIB\orxLIB.vcproj", "{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box2D", "..\..\..\extern\Box2D_2.0.1\Orx\build\VC8\Box2D.vcproj", "{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}.Debug|Win32.Build.0 = Debug|Win32
+		{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}.Release|Win32.ActiveCfg = Release|Win32
+		{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}.Release|Win32.Build.0 = Release|Win32
+		{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}.Debug|Win32.ActiveCfg = Embedded Dynamic Debug|Win32
+		{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}.Debug|Win32.Build.0 = Embedded Dynamic Debug|Win32
+		{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}.Release|Win32.ActiveCfg = Embedded Dynamic Release|Win32
+		{590A8B1B-8ED1-47F7-8986-B4D372BDF4CB}.Release|Win32.Build.0 = Embedded Dynamic Release|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

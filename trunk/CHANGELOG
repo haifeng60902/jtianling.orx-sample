@@ -1,0 +1,80 @@
+
+Orx - Portable Game Engine  (Version 1.1 rc0)
+
+=============================================================================
+
+orx 1.1
+-----
+* Added orxCrypt command line tool for merging/encrypting/decrypting config files
+* Added owner to spawner structure + all missing accessors for runtime handling
+* Added associated clock to objects so as to allow localized time stretching (including sound pitch alteration)
+* Clocks can now be created from config files and directly from objects. There can be only one clock with a given name (like cameras)
+* IMPORTANT: Renamed spawner's WaveNumber property to WaveSize
+* IMPORTANT: World gravity now use the physics dimension ratio -> update your config files accordingly
+* orxCLOCK is now an orxSTRUCTURE
+* Added timer handling functions in clock module
+* Fixed aspect ratio correction when viewport was narrower than camera
+* Added custom events for animations
+* Integrated current Box2D version from its svn repository
+* Added Raycast feature when physics is enabled (+wrappers in body & object modules)
+* Dynamic objects can now have parents and get the cumulated result move from parents + physics simulation!
+* Added a custom gravity as Body's property
+* Physics simulation is back on main clock to provide a more robust game loop
+* Fixed FixedRotation property to use Box2D feature instead of orx's hacked one
+* Fixed orxVector_FromCartesianToSpherical() not getting the correct Rho when colinear to negative axes
+* Added names of both involved parts in contact events
+* Fixed orxFRAME child calculation when using anisotropic scale on parent
+* Fixed home render plugin camera rotation when the camera has a parent object
+* Removed AutoDelete property for spawners
+* Added possibility for spawner to transmit or not parent's rotation & scale (by default it transmit them as before)
+* Added orxObject_GetChild() / orxObject_GetSibling() for querying dependencies (for objects created through config's ChildList property only)
+* Fixed config block value incorrectly saved by orxConfig_Save()
+* Added the possibility to use empty config values either by using an empty line or a ;
+* IMPORTANT: Due to the above change, block values must have the opening " on the same line as the key attribution: Key = "
+* Config section inheritance can now easily be modified on-the-fly, at runtime (orxConfig_SetParent())
+* Added 'screen' keyword for ShaderList properties
+* Optimized shader lists processing when rendering objects & viewports
+* Fixed tutorial #5 (viewport) jerkyness
+* Sets default gravity to none in Box2D physics plugin
+* Fixed use of AutoScroll/DepthScale with objects using bodies
+* Changed tutorial #11 (spawner/shader) shader code
+* Added orxDisplay_GetVideoModeCounter() / orxDisplay_GetVideoMode() / orxDisplay_SetVideoMode() & orxDisplay_IsVideoModeAvailable() (+SFML implementations)
+* Renamed orxInput_GetBoundInputNumber() to orxInput_GetBoundInputCounter()
+* Renamed orxStructure_GetNumber() to orxStructure_GetCounter()
+* orxSystem module is now part of core (external library independent) and not a plugin anymore (+updated all configurations)
+* When querying screen texture size, the latest display size will always be used
+* Updated bounce demo to be able to change resolution on the fly (F1/F2) + ToggleFullScreen on F3
+* Added orx_WinExecute() helper for console-less windows application
+* Added __orxWII__ platform define for future work
+* Added __orxIPHONE__ platform define for future work
+* Misc updates & fixes
+
+orx 1.0 final
+-----
+* Added fully featured localization module (orxLocale)
+* orxTEXT that relies on the orxLocale module will now be automatically updated when changing language at runtime
+* Updated screenshot module to work with config reloads
+* Optimized some access to the config module
+* Added acceleration parameter to FX curves (to controle their frequencies over time)
+* Fixed flipped & tiled objects rendering
+* Replaced all external uses of orxRGBA by orxCOLOR
+* Events handlers are now expected to return orxSTATUS_SUCCESS so as to continue calling other handlers
+* Added orxDisplay_SetFullScreen() and orxDisplay_IsFullScreen() functions + SFML implementation
+* Improved some tutorials + added localization example in tutorial #10
+* Misc minor updates in code & comments
+
+orx 1.0rc1
+-----
+* Migrated all SFML plugins on all platforms to SFML 1.5: linux was using SFML 1.3, other platforms were using SFML 1.4
+* Fixed the reload of config history: logic was broken and it could even crash
+* Physics plugin now can handle negative scales (mirror effect)
+* Fixed spawner not using scale when setting spawned object's relative speed
+* Added orxLOG_CONSOLE(), orxLOG_FILE() and orxLOG_RAW() helpers
+* Config section are not allowed anylonger to have leading or trailing spaces + trimmed all requests accordingly
+* Fixed spawner wave timestamp not being correctly cleared when a spawner was reset
+* Removed obsolete files
+* Misc minor updates in comments/doc files
+
+orx 1.0rc0
+-----
+* Initial release candidate for orx 1.0
