@@ -23,5 +23,5 @@ glob:*.html
 glob:*.ilk
 glob:*.so
 glob:*.dylib
-glob:*.lib
 glob:*.a
+glob:*.log
