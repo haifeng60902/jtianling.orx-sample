@@ -22,6 +22,20 @@ private:
   orxSTATUS                     InitGame();
 };
 
+
+orxOBJECT *CreateText(orxSTRING _zTextSection)
+{
+	orxConfig_PushSection(_zTextSection);
+	orxConfig_SetString("Graphic", _zTextSection);
+	orxConfig_SetString("Text", _zTextSection);
+
+	orxOBJECT *pstReturn = orxObject_CreateFromConfig(_zTextSection);
+
+	orxConfig_PopSection();
+
+	return pstReturn;
+}
+
 // Init game function
 orxSTATUS GameApp::InitGame()
 {
@@ -32,7 +46,7 @@ orxSTATUS GameApp::InitGame()
 	  eResult = orxSTATUS_FAILURE;
   }
 
-  if ( orxObject_CreateFromConfig("HelloWorld") == NULL) {
+  if ( CreateText("HelloWorld") == NULL) {
 	  eResult = orxSTATUS_FAILURE;
   }
 
