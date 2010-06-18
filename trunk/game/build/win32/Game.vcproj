@@ -64,6 +64,7 @@
 				OutputFile="$(OutDir)/$(ProjectName)d.exe"
 				AdditionalLibraryDirectories="../../lib"
 				GenerateDebugInformation="true"
+				SubSystem="0"
 				TargetMachine="1"
 			/>
 			<Tool
