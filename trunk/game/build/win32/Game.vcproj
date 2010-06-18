@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Game"
+	Name="game"
 	ProjectGUID="{5DD84BDE-0436-4440-9BF3-65C6170DE4C1}"
 	RootNamespace="Game"
 	TargetFrameworkVersion="196613"
