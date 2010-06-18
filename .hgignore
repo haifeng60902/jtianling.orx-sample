@@ -25,3 +25,4 @@ glob:*.so
 glob:*.dylib
 glob:*.a
 glob:*.log
+glob:*.db
